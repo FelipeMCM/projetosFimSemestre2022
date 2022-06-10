@@ -1,0 +1,212 @@
+body {
+    background-color: #38b6ff;
+    
+}
+/*Header Menu & LogoMarca*/
+.backgroundHeaderWhite {
+    background-color: #FFF;
+    width: 100%;
+    height: 190px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.logoMarcaBackground {
+    display: flex;
+    width:180px;
+    height: 180px;
+    align-items: center;
+}
+
+.logoMarca {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+
+.menuBackground {
+    display: flex;
+}
+
+.menuList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    margin-right: 200px;
+}
+
+.menuItem {
+    font-size: 35px;
+    padding: 25px 25px 15px 25px;
+    font-family: "Nuosu SIL";
+    font-weight: bold;
+    color: #0E18FF;
+}
+
+.menuItemSelected {
+    border-bottom: 5px solid #0E18FF;
+}
+
+.mainContainer {
+    width: 100%;
+    height:320px;
+    display: flex;
+    flex-direction: row;
+}
+
+.subLeftContainer {
+    display: flex;
+    width: 350px;
+    height:315px;
+    justify-content: top;
+    align-items: top;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+
+.whiteTrace:first-child {
+    margin-top:35px;
+}
+
+.whiteTrace {
+    
+    margin: 15px 0 15px 0;
+    padding: 0 0 5px 0;
+    width: 350px;
+    height: 9px;
+    background-color: #fff;
+}
+
+
+/* Services Content */
+
+.backgroundServicesContainer {
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    background-color:#0E18FF;
+    justify-content:center;
+    align-items: center;
+    
+    
+
+}
+
+.contentServicesContainer {
+    display: flex;
+    width: 150px;
+    height: 260px;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-direction: column;
+    box-shadow: 0 0 1em black;
+
+}
+
+.firstBorderImgServicesContainer {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border:1px solid #000;
+
+    box-shadow: 0 0 1em black;
+}
+
+.imgServicesContainer {
+    display: flex;
+    flex-direction: row;
+    background-color:#0E18FF;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 1em black;
+    
+}
+
+.imgServicesContainer {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.descriptionImgService {
+    margin: 15px;
+    padding: 15px;
+    align-self: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Nuosu SIL";
+    color: #FFF;
+}
+
+.descriptionTitleCalledCloud {
+    margin-left: 4px;
+}
+.descriptionCalledApps {
+    color: gold;
+    margin-left: 6px;
+}
+
+h2 {
+    color: gold;
+}
+
+.footerBackGround {
+    display:flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.blueTrace {
+    height: 9px;
+    margin: 15px;
+    background-color:#0E18FF;
+    width: 100%;
+}
+
+.boxButtonBackground {
+    display: flex;
+    width: 180px;
+    height: 20px;
+    padding: 1.3em 3em;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 18px;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #0E18FF;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.boxButtonBackground:hover {
+  background-color: #1278b3;
+  box-shadow: 0px 15px 20px #000;
+  color: #fff;
+  transform: translateY(-7px);
+  border-bottom:2px solid #0E18FF;
+  border-right: 2px solid #0E18FF;
+}
+
+.boxButtonBackground:active {
+  transform: translateY(-1px);
+}
+
+
+.descriptionButtonFooter {
+    font-size: 30px;
+    font-weight: bold;
+    align-self: center;
+    
+}
