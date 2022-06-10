@@ -41,7 +41,7 @@ body {
 .menuItem {
     font-size: 35px;
     padding: 25px 25px 15px 25px;
-    font-family: "Nuosu SIL";
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #0E18FF;
 }
@@ -136,17 +136,19 @@ body {
     padding: 15px;
     align-self: center;
     text-decoration: none;
+    font-weight: bold;
     font-size: 25px;
-    font-family: "Nuosu SIL";
+    font-family: 'Roboto', sans-serif;
     color: #FFF;
 }
 
 .descriptionTitleCalledCloud {
     margin-left: 4px;
 }
+
 .descriptionCalledApps {
     color: gold;
-    margin-left: 6px;
+    margin-left: 10px;
 }
 
 h2 {
@@ -206,6 +208,7 @@ h2 {
 
 .descriptionButtonFooter {
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     align-self: center;
     
